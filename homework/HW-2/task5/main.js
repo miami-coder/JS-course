@@ -1,0 +1,3 @@
+let temps = [
+    {day: '',morningTemp: }
+];

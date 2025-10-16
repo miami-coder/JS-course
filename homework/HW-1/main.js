@@ -47,7 +47,7 @@
 //task 4
 // let a = prompt('Enter your first name');
 // let b = prompt('Enter your last name');
-// let c = prompt('Enter your age');
+// let c = +prompt('Enter your age');
 // console.log(a);
 // console.log(b);
 // console.log(c);
