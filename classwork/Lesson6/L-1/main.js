@@ -3,6 +3,8 @@ console.log(str);
 // заміна конкатенації
 let s = str.concat('!!!')
 console.log(s);
+// чистить стрінгу від зайвого
+console.log(s.trim());
 // верхній регістр
 console.log(str.toUpperCase());
 // нижній регістр
@@ -11,7 +13,7 @@ console.log(str.toLowerCase());
 console.log(str.startsWith('hel'));
 // як кінчається стрінга тру фолс
 console.log(str.endsWith('ld'));
-// стартова і ендова позиція яка обрізає странгу
+// стартова і ендова позиція яка обрізає стрінгу
 console.log(str.substring(0, 7));
 // під яким індексом літера в стрінзі перше входження
 console.log(str.indexOf('o'));
