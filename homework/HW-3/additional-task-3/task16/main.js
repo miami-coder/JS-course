@@ -13,10 +13,24 @@ let books = [
 // }
 // console.log(maxPage);
 
-let genreBook = books[0];
+// let genreBook = books[0];
+// for (let book of books) {
+//     if (book.genre.length > genreBook.genre.length) {
+//         genreBook = book;
+//     }
+// }
+// console.log(genreBook);
+
+// let titleBook = books[0];
+// for (let titleLength of books) {
+//     if (titleLength.title.length > titleBook.title.length) {
+//         titleBook = titleLength;
+//     }
+// }
+// console.log(titleBook);
+
 for (let book of books) {
-    if (book.genre.length > genreBook.genre.length) {
-        genreBook = book;
+    if (book.authors.length === 1) {
+        console.log(book);
     }
 }
-console.log(genreBook);
