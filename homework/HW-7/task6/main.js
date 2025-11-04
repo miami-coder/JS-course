@@ -12,13 +12,23 @@ function Car(mode, producer, year, maxSpeed, engineVolume) {
             console.log(key, this[key]);
         }
     }
-    this.increaseMaxSpeed = function (newSpeed) {
-        if (newSpeed > 0) this.maxSpeed = this.maxSpeed + newSpeed;
+    this.increaseMaxSpeed = function (speedToAdd) {
+        if (speedToAdd > 0) this.maxSpeed = this.maxSpeed + speedToAdd;
     }
-    this.changeYear = function (newYear) {
-        if (newYear > 1815) this.year = newYear;
+    this.changeYear = function (year) {
+        if (year > 1815) this.year = year;
     }
-    this.addDriver = function (driverObject) {
-        if (driverObject) this.driver = driverObject;
+    this.addDriver = function (driver) {
+        if (driver) this.driver = driver;
     }
 }
+
+let car = new Car('qwe', 'asd', 1956, 122, 4);
+console.log(car);
+
+car.drive();
+car.info();
+car.increaseMaxSpeed(100);
+car.changeYear(2000);
+car.addDriver({});
+console.log(car);
