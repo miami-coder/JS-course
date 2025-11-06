@@ -1,25 +1,25 @@
-// let target = document.getElementById('target');
-// target.onclick = function (ev) {
-//     console.log('click');
-//     console.log(ev);
+let target = document.getElementById('target');
+target.onclick = function (ev) {
+    console.log('click');
+    console.log(ev);
+}
+
+// target.onmousemove = (function (ev) {
+//     console.log(ev.offsetX, ev.offsetY);
+//     let r = ev.clientX;
+//     let g = ev.clientX;
+//     let b = ev.clientY;
+//     this.style.background = `rgb(${r},${g},${b})`
+// })
+//
+// target.onclick = function () {
+//     console.log('qwerty');
 // }
+// console.log(target);
 //
-// // target.onmousemove = (function (ev) {
-// //     console.log(ev.offsetX, ev.offsetY);
-// //     let r = ev.clientX;
-// //     let g = ev.clientX;
-// //     let b = ev.clientY;
-// //     this.style.background = `rgb(${r},${g},${b})`
-// // })
-//
-// // target.onclick = function () {
-// //     console.log('qwerty');
-// // }
-// // console.log(target);
-//
-// // target.addEventListener('click', function (ev) {
-// //     console.log('qwerty');
-// // })
+// target.addEventListener('click', function (ev) {
+//     console.log('qwerty');
+// })
 //
 // target.onmouseover = function () {
 //     console.log('over');
